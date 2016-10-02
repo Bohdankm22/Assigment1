@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,11 +12,16 @@ namespace Assignment1
 {
     public class Global : HttpApplication
     {
+
+        private List<Recipe> recipes;
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            recipes = new List<Recipe>();
+            recipes.Add(new Recipe());
         }
     }
 }
