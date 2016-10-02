@@ -45,6 +45,7 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/Receipes">Recipes</a></li>
                         <li><a runat="server" href="~/AddReceipe">Add receipe</a></li>
+                        <li><a runat="server" href="~/Search">Search</a></li>
                     </ul>
                 </div>
             </div>
