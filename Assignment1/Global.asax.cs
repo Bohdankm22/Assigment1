@@ -21,7 +21,9 @@ namespace Assignment1
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             recipes = new List<Recipe>();
-            recipes.Add(new Recipe());
+            recipes.Add(new Recipe("Smashed potatoes", "Do something, bla-bla"));
+            recipes.Add(new Recipe("Fried potatoes", "Do something, bla-bla"));
+            recipes.Add(new Recipe("Boiled potatoes", "Do something, bla-bla"));
         }
     }
 }
