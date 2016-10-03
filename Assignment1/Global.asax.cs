@@ -13,17 +13,30 @@ namespace Assignment1
     public class Global : HttpApplication
     {
 
-        private List<Recipe> recipes;
+        static List<Recipe> recipes;
+        public static List<Recipe> Recipes
+        {
+            get
+            {
+                return recipes;
+            }
+
+            set
+            {
+                recipes = value;
+            }
+        }
+
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            recipes = new List<Recipe>();
-            recipes.Add(new Recipe("Smashed potatoes", "Do something, bla-bla"));
-            recipes.Add(new Recipe("Fried potatoes", "Do something, bla-bla"));
-            recipes.Add(new Recipe("Boiled potatoes", "Do something, bla-bla"));
+            Global.Recipes = new List<Recipe>();
+            Global.Recipes.Add(new Recipe("Smashed potatoes", "Do something, bla-bla"));
+            Global.Recipes.Add(new Recipe("Fried potatoes", "Do something, bla-bla"));
+            Global.Recipes.Add(new Recipe("Boiled potatoes", "Do something, bla-bla"));
         }
     }
 }
