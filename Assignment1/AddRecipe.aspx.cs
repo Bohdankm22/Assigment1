@@ -18,6 +18,8 @@ namespace Assignment1
         {
             Global.Recipes.Add(new Recipe(RecipeInputName.Value, RecipeInputDescription.Value));
             SuccessfullySaved.Text = "You succesfully saved your recipe!";
+            RecipeInputName.Value = "";
+            RecipeInputDescription.Value = "";
         }
     }
 }
