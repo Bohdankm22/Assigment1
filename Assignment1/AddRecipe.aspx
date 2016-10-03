@@ -12,7 +12,7 @@
                 <asp:Label ID="Label2" runat="server" Text="Recipe description"/>
                 &nbsp;</p>
             <p>&nbsp;</p>
-            <p><input runat="server" ID="RecipeInputDescription" style="position: absolute; left: 400px; top: 261px; height: 75px; width: 200px;" /></p>
+            <p><textarea runat="server" ID="RecipeInputDescription" style="position: absolute; left: 400px; top: 261px; height: 75px; width: 200px;" /></p>
             <p>&nbsp;</p>
             <p>
                 <asp:Button ID="RecipeSaveButton" Text="Save recipe" runat="server" OnClick="RecipeSave"/>
