@@ -1,4 +1,4 @@
-﻿<%@ Page Title="List of recipes" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Receipes.aspx.cs" Inherits="Assignment1.Receipes" %>
+﻿<%@ Page Title="List of recipes" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Recipes.aspx.cs" Inherits="Assignment1.Recipes" %>
 <%@ Register TagPrefix="rc" TagName="RecipeItem" Src="RecipeItem.ascx" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">

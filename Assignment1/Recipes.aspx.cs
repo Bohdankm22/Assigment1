@@ -8,7 +8,7 @@ using System.Web.UI.WebControls;
 
 namespace Assignment1
 {
-    public partial class Receipes : Page
+    public partial class Recipes : Page
     {
 
         protected void Page_Load(object sender, EventArgs e)

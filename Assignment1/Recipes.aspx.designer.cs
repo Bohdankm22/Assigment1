@@ -10,7 +10,7 @@
 namespace Assignment1 {
     
     
-    public partial class Receipes {
+    public partial class Recipes {
         
         /// <summary>
         /// ListView1 control.

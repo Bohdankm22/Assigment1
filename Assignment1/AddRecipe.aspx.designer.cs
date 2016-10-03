@@ -10,7 +10,7 @@
 namespace Assignment1 {
     
     
-    public partial class AddReceipe {
+    public partial class AddRecipe {
         
         /// <summary>
         /// RecipeLabelName control.

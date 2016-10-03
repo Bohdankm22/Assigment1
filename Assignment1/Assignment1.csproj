@@ -182,7 +182,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Receipes.aspx" />
+    <Content Include="Recipes.aspx" />
     <Content Include="Account\AddPhoneNumber.aspx" />
     <Content Include="Account\Confirm.aspx" />
     <Content Include="Account\Forgot.aspx" />
@@ -198,7 +198,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="AddReceipe.aspx" />
+    <Content Include="AddRecipe.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -369,22 +369,22 @@
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="Receipes.aspx.cs">
-      <DependentUpon>Receipes.aspx</DependentUpon>
+    <Compile Include="Recipes.aspx.cs">
+      <DependentUpon>Recipes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Receipes.aspx.designer.cs">
-      <DependentUpon>Receipes.aspx</DependentUpon>
+    <Compile Include="Recipes.aspx.designer.cs">
+      <DependentUpon>Recipes.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="AddReceipe.aspx.cs">
-      <DependentUpon>AddReceipe.aspx</DependentUpon>
+    <Compile Include="AddRecipe.aspx.cs">
+      <DependentUpon>AddRecipe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AddReceipe.aspx.designer.cs">
-      <DependentUpon>AddReceipe.aspx</DependentUpon>
+    <Compile Include="AddRecipe.aspx.designer.cs">
+      <DependentUpon>AddRecipe.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
