@@ -9,14 +9,11 @@
         <p>
             <asp:Label ID="Label2" runat="server" Text="Recipe description"/>
             &nbsp;<input runat="server" ID="RecipeInputDescription" style="position: absolute; left: 250px; top: 186px; height: 51px; width: 194px;" /></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <p>
-            &nbsp;</p>
-        <p>
-            &nbsp;</p>
-        <p>
-            &nbsp;</p>
-        <p>
-        <asp:Button ID="RecipeSaveButton" Text="Save recipe" runat="server" OnClick="RecipeSave"/>
+            <asp:Button ID="RecipeSaveButton" Text="Save recipe" runat="server" OnClick="RecipeSave"/>
         </p>
         <br />
         <p>
