@@ -7,11 +7,17 @@ using System.Web.UI.WebControls;
 
 namespace Assignment1
 {
-    public partial class Contact : Page
+    public partial class AddReceipe : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void RecipeSave(object sender, EventArgs e)
+        {
+            Global.Recipes.Add(new Recipe(RecipeInputName.Value, RecipeInputDescription.Value));
+            SuccessfullySaved.Text = "You succesfully saved your recipe!";
         }
     }
 }
