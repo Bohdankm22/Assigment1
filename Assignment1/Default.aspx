@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Recipe book!</h1>
+        <h1>Cookbook</h1>
         <p class="lead">Add your recipes, take a look at other recipes. Share your knowladge and get some.</p>
     </div>
 
@@ -14,6 +14,10 @@
                 Any kind of cooking recipes are available here. 
             </p>
         </div>
+        <h1>Description</h1>
+        <p>
+            Cookbook is ONE place to store and organize the recipes you find and tear out of magazines, bookmark online, store on faded recipe cards – in a format that can be carried & used directly in the kitchen. 
+        </p>
         
     </div>
 

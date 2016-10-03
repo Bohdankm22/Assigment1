@@ -7,6 +7,7 @@
         <input id="searchLine" runat="server" />
         <asp:Button runat="server" id="searchRec" onClick="searchRecipes" Text="Search recipes"/>
         <br>
+        <br>
 
         <asp:ListView runat="server" ID="ListView1" style="margin-right: 416px">
           <LayoutTemplate>

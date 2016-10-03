@@ -3,6 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron">
         <h2><%: Title %></h2>
+        <br />
         <div style="width: 800px">
             <p>
                 <asp:Label ID="RecipeLabelName" runat="server" Text="Recipe Name"/>
@@ -12,7 +13,7 @@
                 <asp:Label ID="Label2" runat="server" Text="Recipe description"/>
                 &nbsp;</p>
             <p>&nbsp;</p>
-            <p><textarea runat="server" ID="RecipeInputDescription" style="position: absolute; left: 400px; top: 261px; height: 75px; width: 200px;" /></p>
+            <p><textarea runat="server" ID="RecipeInputDescription" style="position: absolute; left: 400px; top: 310px; height: 66px; width: 200px;" /></p>
             <p>&nbsp;</p>
             <p>
                 <asp:Button ID="RecipeSaveButton" Text="Save recipe" runat="server" OnClick="RecipeSave"/>
@@ -23,4 +24,5 @@
             </p>
         </div>
     </div>
+</div>
 </asp:Content>
