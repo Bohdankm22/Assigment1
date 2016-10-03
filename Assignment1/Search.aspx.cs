@@ -27,6 +27,7 @@ namespace Assignment1
             }
             ListView1.DataSource = result;
             ListView1.DataBind();
+            searchLine.Value = "";
         }
     }
 }
