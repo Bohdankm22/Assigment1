@@ -1,5 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="Assignment1.Search" %>
+﻿<%@ Page Title="Search" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" Inherits="Assignment1.Search" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <h2><%: Title %></h2>
+    <br />
     <asp:Label runat="server" Text="Search"/>
     <input id="searchLine" runat="server" />
     <asp:Button runat="server" id="searchRec" onClick="searchRecipes" Text="Search recipes"/>
