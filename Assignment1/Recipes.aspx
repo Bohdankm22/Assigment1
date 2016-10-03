@@ -8,7 +8,7 @@
     
         <asp:ListView runat="server" ID="ListView1">
           <LayoutTemplate>
-            <table runat="server" id="table1" >
+            <table runat="server" id="table1" style="border:medium; border-color:black" border="1">
                 <tr>
                     <td style="width: 250px;">
                         <span><b>Name</b></span>
