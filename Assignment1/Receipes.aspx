@@ -1,13 +1,21 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Receipes.aspx.cs" Inherits="Assignment1.Receipes" %>
+﻿<%@ Page Title="List of recipes" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Receipes.aspx.cs" Inherits="Assignment1.Receipes" %>
 <%@ Register TagPrefix="rc" TagName="RecipeItem" Src="RecipeItem.ascx" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %>List of recipes</h2>
-    <h3>Your application description page.</h3>
+    <h2><%: Title %></h2>
+    
     
     <asp:ListView runat="server" ID="ListView1">
       <LayoutTemplate>
         <table runat="server" id="table1" >
+            <tr>
+                <td>
+                    <span><b>Name</b></span>
+                </td>
+                <td>
+                    <span><b>Description</b></span>
+                </td>
+            </tr>
           <tr runat="server" id="itemPlaceholder" ></tr>
         </table>
       </LayoutTemplate>
